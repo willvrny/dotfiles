@@ -1,0 +1,3 @@
+# Set GOPATH
+export GOPATH=$HOME
+PATH=$PATH:$GOPATH/bin
