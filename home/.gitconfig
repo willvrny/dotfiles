@@ -1,0 +1,14 @@
+[user]
+	name = Steven Wade
+	email = steven@stevenwade.co.uk
+	signingkey = AC6EFF1D
+
+[commit]
+	gpgsign = true
+
+[github]
+	user = swade1987
+
+[core]
+	excludesfile = ~/.gitignore
+	autocrlf = input
