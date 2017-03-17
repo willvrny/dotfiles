@@ -12,3 +12,6 @@
 [core]
 	excludesfile = ~/.gitignore
 	autocrlf = input
+
+[hub]
+	protocol = ssh
