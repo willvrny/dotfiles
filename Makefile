@@ -5,9 +5,10 @@ keybase-login:
 	keybase login
 
 setup-home-directory:
-	cp home/.gitconfig ~/.gitconfig && \
-	cp home/.zshrc ~/.zshrc && \
-	source ~/.zshrc
+	cp home/.* ~/
 
 clone-github-repos:
 	cd git && chmod +x clone-github-repos.sh && ./clone-github-repos.sh
+
+configure-zsh-theme:
+	cp zsh/robbyrussell.zsh-theme $HOME/.oh-my-zsh/themes
