@@ -11,4 +11,4 @@ clone-github-repos:
 	cd git && chmod +x clone-github-repos.sh && ./clone-github-repos.sh
 
 configure-zsh-theme:
-	cp zsh/robbyrussell.zsh-theme $HOME/.oh-my-zsh/themes
+	cp zsh/robbyrussell.zsh-theme $$HOME/.oh-my-zsh/themes
