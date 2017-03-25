@@ -25,6 +25,7 @@ cask 'packer'
 cask 'google-drive'
 cask 'vagrant'
 cask 'keybase'
+cask 'virtualbox'
 
 brew 'wget'
 brew 'ack'
