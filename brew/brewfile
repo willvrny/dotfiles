@@ -25,6 +25,7 @@ cask 'vagrant'
 cask 'keybase'
 cask 'virtualbox'
 cask 'adium'
+cask 'sourcetree'
 
 brew 'wget'
 brew 'ack'
