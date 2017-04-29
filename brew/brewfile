@@ -24,6 +24,7 @@ cask 'google-drive'
 cask 'vagrant'
 cask 'keybase'
 cask 'virtualbox'
+cask 'adium'
 
 brew 'wget'
 brew 'ack'
