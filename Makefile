@@ -3,8 +3,6 @@ configure-brew:
 
 install-zsh:
 	sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-
-configure-zsh-theme:
 	cp zsh/robbyrussell.zsh-theme $$HOME/.oh-my-zsh/themes
 	chsh -s /bin/zsh
 
