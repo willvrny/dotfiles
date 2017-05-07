@@ -10,7 +10,6 @@ tap 'homebrew/bundle'
 tap 'homebrew/versions'
 tap 'unofficial-cask/hashicorp-tap'
 
-cask 'docker'
 cask 'dropbox'
 cask 'google-chrome'
 cask 'iterm2'
