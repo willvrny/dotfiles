@@ -1,16 +1,27 @@
-configure-brew:
-	cd brew && chmod +x install.sh && ./install.sh
+install-brew:
+	bash -c "brew/install.sh"
+	brew bundle --file=./brew/Brewfile
+
+init:
+	git submodule update --init --recursive
 
 install-zsh:
-	sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-	cp zsh/robbyrussell.zsh-theme $$HOME/.oh-my-zsh/themes
-	chsh -s /bin/zsh
+	stow zsh -t ~
 
-keybase-login:
-	keybase login
+install-tmux:
+	stow tmux -t ~
 
-setup-home-directory:
-	cp home/.* $$HOME/
+install-tig:
+	stow tig -t ~
 
-clone-github-repos:
-	cd git && chmod +x clone-github-repos.sh && ./clone-github-repos.sh
+install-git:
+	stow git -t ~
+
+install-alacritty:
+	stow alacritty -t ~
+
+install-vim:
+	stow vim -t ~
+
+install-scripts:
+	sudo cp -a usr/local/bin/. /usr/local/bin/

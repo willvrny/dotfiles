@@ -1,0 +1,16 @@
+[user]
+name = Will Varney
+email = will.varney@mettle.co.uk
+
+[github]
+user = willvrny
+
+[url "git@github.com:"]
+insteadOf = https://github.com/
+
+[core]
+excludesfile = ~/.gitignore
+autocrlf = input
+
+[alias]
+commit = commit --signoff

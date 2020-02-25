@@ -1,0 +1,24 @@
+# vim: set expandtab sw=4 tabstop=4:
+
+# general
+color   default                 15      235
+color   cursor                  15      241
+color   title-focus             242     221
+color   title-blur              242     221
+color   delimiter               213     default
+color   author                  156     default
+color   date                    81      default
+color   line-number             221     default
+color   mode                    255     default
+
+# main
+color   main-tag                213     default     bold
+color   main-local-tag          213     default
+color   main-remote             221     default
+color   main-replace            81      default
+color   main-tracked            221     default     bold
+color   main-ref                81      default
+color   main-head               213     default     bold
+color   graph-commit            226     default
+
+set main-view-id = yes

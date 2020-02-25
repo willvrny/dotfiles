@@ -1,0 +1,17 @@
+set -eu
+
+SOURCE_CODE_DIRECTORY=/Users/steven/src/github.com/eeveebank
+
+function main {
+    cd $SOURCE_CODE_DIRECTORY
+
+    printf "Size of directory before tidy up: $(du -hs)\n"
+
+    printf "Tidy up starting ...\n"
+    find . -type d -name .terraform -print0 | xargs -0 rm -rf
+    printf "Finished tidying.\n"
+
+    printf "Size of directory after tidy up: $(du -hs)\n"
+}
+
+main

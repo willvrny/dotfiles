@@ -12,8 +12,5 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
-# Execute the brewfile in this directory.
-brew bundle
-
 # Remove outdated versions from the cellar.
 brew cleanup
