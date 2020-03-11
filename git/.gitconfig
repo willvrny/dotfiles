@@ -14,3 +14,4 @@ autocrlf = input
 
 [alias]
 commit = commit --signoff
+	shorthash = rev-parse --short @
